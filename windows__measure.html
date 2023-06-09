@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Okna</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body class="page">
+    <div class="wrapper">
+        <header class="header"> <!-- часть над меню -->
+            <div class="logo">
+                <img class="logo__img" src="images/logoza.ru.png" alt="">
+            </div>
+            <div class="phone">
+                <span class="phone__number">
+                    +7 (495) 254-45-97
+                </span>
+                <span class="phone__time">
+                    Ежедневно
+                </span>
+                <span class="phone__time">
+                    с 9:00 до 21:00
+                </span>
+            </div>
+            <div class="location">
+                <i class="location__point fa-solid fa-location-dot"></i>
+                Москва
+            </div>
+        </header>
+    </div>
+    <nav class="navigation">
+        <div class="wrapper">
+            <ul class="navigation__list">
+                <li class="navigation__list-item">
+                    <a class="navigation__item-link" href="index.html">
+                        О компании
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a class="navigation__item-link" href="price.html">
+                        Цены
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a class="navigation__item-link" href="windows__measure.html">
+                        Вызов замерщика
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a class="navigation__item-link" href="contacts.html">
+                        Контакты
+                    </a>
+                </li>
+                <li class="navigation__list-item">
+                    <a class="navigation__item-link" href="faq.html">
+                        FAQ
+                    </a>
+                </li>
+                <li class="navigation_list-item"></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <div class="path">
+            Вызов замерщика
+        </div>
+    </div>
+    <div class="wrapper">
+        <main class="measure">
+            <h1 class="heading">
+                Вызвать замерщика окон
+            </h1>
+            <main class="measure__content">
+                <form class="measure__form" action="" method="post">
+                    <h2 class="measure__form-first-heading">
+                        Ваши данные
+                    </h2>
+                    <label class="measure__label" for="name">Имя</label>
+                    <input class="measure__name measure__input" id="name" type="text" required>
+                    <label class="measure__label" for="surname">Фамилия</label>
+                    <input class="measure__surname measure__input" id="surname" type="text" required>
+                    <label class="measure__label" for="email">Email</label>
+                    <input class="measure__email measure__input" id="email" type="email" required>
+                    <label class="measure__label" for="phone">Телефон</label>
+                    <input class="measure__phone measure__input" id="phone" type="text" name="phone" required>
+                    <label class="measure__label" for="form-address">Адрес</label>
+                    <input class="measure__address measure__input" id="form-address" type="text">
+                    <h2 class="measure__form-second-heading">
+                        Пожелания по установке
+                    </h2>
+                    <label class="measure__label" for="material">Материал</label>
+                    <select class="measure__material measure__select" id="material">
+                        <option value="alumin">Алюминиевые</option>
+                        <option value="plastic" class="measure__material-plastic-btn">Пластиковые</option>
+                    </select>
+                    <div class="block">
+                        Производитель
+                        <select name="" id="" class="select">
+                            <option value="Rehau" class="option">
+                                Rehau
+                            </option>
+                            <option value="KBE" class="option">
+                                KBE
+                            </option>
+                            <option value="Melke" class="option">
+                                Melke
+                            </option>
+                        </select>
+                        <!-- Классы временные -->
+                    </div>
+                    <label class="measure__label" for="ventilation">Установка приточной вентиляции</label>
+                    <input class="measure__ventilation measure__radio1" type="radio" name="radio1"> Да
+                    <input class="measure__ventilation measure__radio1" type="radio" name="radio1"> Нет
+                    <label class="measure__label" for="opening-type">Тип открывания створок</label>
+                    <select class="measure__opening-type measure__select" id="opening-type">
+                        <option value="povorotnoe">Поворотное</option>
+                        <option value="otkidnoe">Откидное</option>
+                        <option value="povorotno-otkidnoe">Поворотно-откидное</option>
+                    </select>
+                    <label class="measure__label" for="net">Установка москитной сетки</label>
+                    <input class="measure__net measure__radio2" type="radio" name="radio2"> Да
+                    <input class="measure__net measure__radio2" type="radio" name="radio2"> Нет
+                    <button class="measure__button">
+                        Отправить заявку
+                    </button>
+                </form>
+                <div class="agreement measure__agreement">
+                    Оставляя заявку, вы даете своё Согласие на обработку 
+                    <a class="agreement__text" href="#">
+                        персональных данных.
+                    </a>
+                </div>
+            </main>
+        </main>
+    </div>
+    <div class="footer page__footer">
+        <div class="wrapper">
+            <div class="footer__contacts">
+                <h3 class="footer__contacts-heading">
+                    Контакты
+                </h3>
+                <div class="footer__contacts-items">
+                    <div class="footer__contacts-phone">
+                        <div class="footer__contacts-inner-item">
+                            <h4 class="footer__phone-heading">Телефон:</h4>
+                            +7 (495) 254-45-97
+                        </div>
+                    </div>
+                    <div class="footer__contacts-messengers">
+                        <h4 class="footer__messengers-heading">
+                            Напишите нам:
+                        </h4>
+                        <div class="footer__contacts-inner-item">
+                            <i class="footer__contacts-whatsapp fa-brands fa-whatsapp"></i>
+                            +7 (495) 254-45-97
+                        </div>
+                        <div class="footer__contacts-inner-item">
+                            <i class="footer__contacts-telegram fa-brands fa-telegram"></i>
+                            +7 (495) 254-45-97
+                        </div>
+                        <div class="footer__contacts-inner-item">
+                            <i class="footer__contacts-viber fa-brands fa-viber"></i>
+                            +7 (495) 254-45-97
+                        </div>
+                    </div>
+                    <div class="footer__questions">
+                        <h4 class="footer__questions-heading">
+                            Остались вопросы?
+                        </h4>
+                        <a class="footer__questions-text" href="faq.html">
+                            Посетите наш FAQ
+                        </a>
+                    </div>
+                    <div class="footer__copyright">
+                        © ООО «Best okna» – изготовление, установка и продажа 
+                         окон в Москве и Московской области, 2008 - 2023
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
